@@ -48,6 +48,12 @@ def moveItemsp2(instructions, stack):
         stack[endStack].append(temparray[x])
     return stack
 
-stack = readfile()
-print(readInstructions(stack))
+def getTopValues(stacks):
+    topValues = []
+    for x in range(9):
+        topValues.append(stacks[x].pop())
+    return topValues
 
+stack = readfile()
+finalStacks = readInstructions(stack)
+print(getTopValues(finalStacks))

@@ -4,7 +4,6 @@ def readFile():
     f = open("Challenges/1/input_data.txt","r")
     for line in f:
         data = line.split("\n")     
-
         if data[0] != "":
             count += int(data[0])
         else:
