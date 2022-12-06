@@ -21,7 +21,7 @@ def compareP2(array1, array2):
 def readFile():
     totalP1 = 0
     totalP2 = 0
-    f = open("Challenges/4/input.txt", "r")
+    f = open("Challenges 2022/4/input.txt", "r")
     for line in f:
         data = line.split(",")
         array1 = data[0].split("-")

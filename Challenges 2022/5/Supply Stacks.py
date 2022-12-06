@@ -1,6 +1,6 @@
 def readfile():
     stack1 = [[],[],[],[],[],[],[],[],[]]
-    f = open("Challenges/5/input.txt", "r")
+    f = open("Challenges 2022/5/input.txt", "r")
     for x in range(8):
         data = f.readline()
         items = data.split(" ")
@@ -13,7 +13,7 @@ def readfile():
     return(stack1)
 
 def readInstructions(stack):
-    f = open("Challenges/5/input.txt", "r")
+    f = open("Challenges 2022/5/input.txt", "r")
     for x in range(10):
         f.readline()
     for line in f:

@@ -10,7 +10,7 @@ def checkItem(mystring):
 
 def readFilePart1():
     total = 0
-    f = open("Challenges/3/input.txt", "r")
+    f = open("Challenges 2022/3/input.txt", "r")
     for line in f:
         value = checkItem(line)
         total += value
@@ -21,7 +21,7 @@ def readFilePart2():
     total = 0
     count = 0
     checkArray = []
-    f = open("Challenges/3/input.txt", "r")
+    f = open("Challenges 2022/3/input.txt", "r")
     for line in f:
         if count < 3:
             data = line.split("\n")

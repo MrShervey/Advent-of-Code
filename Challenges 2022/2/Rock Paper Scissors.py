@@ -65,7 +65,7 @@ def calculateScore(result, playerChoice):
 
 def readFile():
     total = 0    
-    f = open("Challenges/2/input.txt","r")
+    f = open("Challenges 2022/2/input.txt","r")
     for line in f:
         finalData = []
         data = line.split(" ")

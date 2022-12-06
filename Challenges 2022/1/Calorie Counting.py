@@ -1,7 +1,7 @@
 def readFile():
     calories = []
     count = 0
-    f = open("Challenges/1/input_data.txt","r")
+    f = open("Challenges 2022/1/input_data.txt","r")
     for line in f:
         data = line.split("\n")     
         if data[0] != "":

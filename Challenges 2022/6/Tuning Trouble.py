@@ -1,6 +1,6 @@
 #Day 6 - Tuning Tables
 def readfile():
-    f = open("Challenges/6/input.txt","r")
+    f = open("Challenges 2022/6/input.txt","r")
     data = f.readline()
     data = data.split("\n")
     splitData = data[0]

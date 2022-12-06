@@ -1,6 +1,6 @@
 def readfile():
     values = []
-    f = open("Challenges/Test/input.txt", "r")
+    f = open("Challenges 2021/1/input.txt", "r")
     for line in f:
         data = line.split("\n")
         values.append(int(data[0]))
