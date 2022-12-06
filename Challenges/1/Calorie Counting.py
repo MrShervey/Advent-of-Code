@@ -14,9 +14,7 @@ def readFile():
     return calories
 
 readData = readFile()
-
 sorteddata=sorted(readData,reverse = True)
-
 #part 1
 print(sorteddata[0])
 #part 2

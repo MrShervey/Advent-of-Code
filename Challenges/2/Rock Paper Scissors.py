@@ -19,7 +19,6 @@ def getCards(play):
     #Part 2
     return partTwo(oppo, play[1])
 
-
 def calculateWinner(oppo,player):   
     if (oppo == 2 and player == 1) or (oppo == 3 and player == 2) or (oppo == 1 and player == 3):
         result = "Lose"
@@ -77,7 +76,6 @@ def readFile():
         #total += calculateScore(getCards(finalData),finalData[1])
         #part 2
         total += getCards(finalData)
-
     f.close()
     return total
 

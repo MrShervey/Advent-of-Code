@@ -35,7 +35,6 @@ def readFilePart2():
     f.close()
     return total
 
-
 def checkItemP2(dataArray):
     checkstring = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for item in dataArray[0]:

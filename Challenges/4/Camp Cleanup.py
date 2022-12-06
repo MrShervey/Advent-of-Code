@@ -36,7 +36,6 @@ def readFile():
             totalP1 += 1
         if compareP2(array1,array2):
             totalP2 += 1
-
     f.close()
     print("Part 1: ", totalP1)
     print("Part2: ", totalP2)
