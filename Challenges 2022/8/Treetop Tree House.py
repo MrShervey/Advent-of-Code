@@ -24,7 +24,7 @@ def setValidArray(forestArray):
     return newArray
 
 def checkTreesRight(validArray,forestArray):
-    end = len(forestArray[0])-2
+    end = len(forestArray[0])-1
     for row in range(1,len(forestArray)):
         valid = True
         count = 0
