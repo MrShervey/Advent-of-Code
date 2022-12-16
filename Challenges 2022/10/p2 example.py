@@ -2,7 +2,7 @@ import sys
 
 def main () -> None:
 
-    itxt = open("Challenges 2022/10/inputTest.txt", mode='r').read().splitlines()
+    itxt = open("Challenges 2022/10/input.txt", mode='r').read().splitlines()
     itxt = [i.split() for i in itxt]
 
     x = 1
