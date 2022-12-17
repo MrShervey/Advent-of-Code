@@ -1,19 +1,5 @@
-def readFile():
-    data = []
-    with open("Challenges 2022/13/inputTest.txt") as f:
-        lines = f.read().splitlines()
-        for x in range(len(lines)):
-            if lines[x] != "":
-                data.append(lines[x])
-            else:
-                data = []
-            if len(data) == 2:
-                parseData(data[0], data[1])
+arrays = [[1,1,3,1,1],[1,1,5,1,1]],[[[1],[2,3,4]],[[1],[4]]],[[[9]],[[8,7,6]]],[[[4,4],4,4],[[4,4],4,4,4]],[[7,7,7,7],[7,7,7]],[[],[3]],[[[[]]],[[]]],[[1,[2,[3,[4,[5,6,7]]]],8,9],[1,[2,[3,[4,[5,6,0]]]],8,9]]
 
-def parseData(lineOne, lineTwo):
-    print(lineOne)
-    print(lineTwo)
-    
-
-
-readFile()
+for pairs in range(len(arrays)):
+    list1 = arrays[pairs][0]
+    list2 = arrays[pairs][1]
