@@ -23,9 +23,9 @@ class Program
         values = getData();
         for(int x = 0; x < values.Count; x++)
         {
-            for (int y = 1; y < values.Count-1; y++)
+            for (int y = x+1; y < values.Count-1; y++)
             {
-                for (int z = 2; z < values.Count-2;z++)
+                for (int z = y+1; z < values.Count-2;z++)
                 {               
                     if((values[x] + values[y] + values[z]) == 2020)
                     {
