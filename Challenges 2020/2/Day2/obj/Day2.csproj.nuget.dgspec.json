@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2023\\2\\Day 2\\Day 2.csproj": {}
+    "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2020\\2\\Day2\\Day2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2023\\2\\Day 2\\Day 2.csproj": {
+    "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2020\\2\\Day2\\Day2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2023\\2\\Day 2\\Day 2.csproj",
-        "projectName": "Day 2",
-        "projectPath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2023\\2\\Day 2\\Day 2.csproj",
+        "projectUniqueName": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2020\\2\\Day2\\Day2.csproj",
+        "projectName": "Day2",
+        "projectPath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2020\\2\\Day2\\Day2.csproj",
         "packagesPath": "C:\\Users\\sherveyj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2023\\2\\Day 2\\obj\\",
+        "outputPath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2020\\2\\Day2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sherveyj\\AppData\\Roaming\\NuGet\\NuGet.Config",
