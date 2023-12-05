@@ -2,11 +2,10 @@
 using System.Security.Cryptography.X509Certificates;
 class Program
 {
-    // Dictionary<long,long>dictionary = new Dictionary<long,long>();
     static List<string> getData()
     {
         List<string>inputData = new List<string>();
-        TextReader textFile = new StreamReader("testData.txt");
+        TextReader textFile = new StreamReader("inputData.txt");
         string data;
         while ((data = textFile.ReadLine()) != null)
         {
@@ -62,10 +61,54 @@ class Program
         }
         return seeds;
     }
+    static List<long> checkingRange(List<string> data)
+    {
+        string[] stringSeeds = data[0].Split(" ");
+        List<long>seeds = new List<long>();
+        List<bool> seen = new List<bool>();
+        for(int y = 1; y<stringSeeds.Length; y++)
+        {
+            seeds.Add(Convert.ToInt64(stringSeeds[y]));
+            seen.Add(false);
+        }
+        int start = 2;
+        for (int z=0; z<7; z++)
+        {
+            for(int y = 0; y<seeds.Count; y++)
+            {
+                seen[y] = false;
+            }
+            start++;
+            while(data[start] != "")
+            {
+                long[] newValues = Array.ConvertAll(data[start].Split(" "),long.Parse);
+                for(int y = 0; y<seeds.Count;y++)
+                {
+                    if (seen[y] == false)
+                    {
+                        if (seeds[y]>=newValues[1] && seeds[y] <= (newValues[1]+newValues[2]))
+                        {
+                            seeds[y] = newValues[0] + (seeds[y]-newValues[1]);
+                            seen[y] = true;
+                        }
+                    }
+                }
+                start++;
+                
+            }  
+            start++;
+            // Console.WriteLine("[{0}]", string.Join(", ", seeds));
+
+            // Console.WriteLine();
+        } 
+        return seeds;
+    }
     static void Main()
     {
+        
         List<string>inputtedData = getData();
-        List<long> finalValues= checkData(inputtedData);
+        checkingRange(inputtedData);
+        List<long> finalValues= checkingRange(inputtedData);
         Console.WriteLine(finalValues.Min());
     }
 }
