@@ -2,10 +2,11 @@
 using System.Security.Cryptography.X509Certificates;
 class Program
 {
+    // Dictionary<long,long>dictionary = new Dictionary<long,long>();
     static List<string> getData()
     {
         List<string>inputData = new List<string>();
-        TextReader textFile = new StreamReader("inputData.txt");
+        TextReader textFile = new StreamReader("testData.txt");
         string data;
         while ((data = textFile.ReadLine()) != null)
         {
@@ -49,6 +50,7 @@ class Program
                 start++;
             }
             start++;
+            dictionary.Clear();
             dictionary = createDict(dictValues);
             for (int y = 0; y< seeds.Count;y++)
             {
@@ -65,6 +67,5 @@ class Program
         List<string>inputtedData = getData();
         List<long> finalValues= checkData(inputtedData);
         Console.WriteLine(finalValues.Min());
-        Console.ReadLine();
     }
 }
