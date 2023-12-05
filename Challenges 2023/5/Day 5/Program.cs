@@ -5,7 +5,7 @@ class Program
     static List<string> getData()
     {
         List<string>inputData = new List<string>();
-        TextReader textFile = new StreamReader("testData.txt");
+        TextReader textFile = new StreamReader("inputData.txt");
         string data;
         while ((data = textFile.ReadLine()) != null)
         {
@@ -14,12 +14,12 @@ class Program
         textFile.Close();
         return inputData;
     } 
-    static Dictionary<int,int> createDict(List<string> data)
+    static Dictionary<long,long> createDict(List<string> data)
     {
-        Dictionary<int,int>newDict = new Dictionary<int, int>();
+        Dictionary<long,long>newDict = new Dictionary<long,long>();
         for (int x=0;x<data.Count;x++)
         {
-            int[]values = Array.ConvertAll(data[x].Split(" "), int.Parse);
+            long[]values = Array.ConvertAll(data[x].Split(" "), long.Parse);
             int add = 0;
             for (int y = 0; y < values[2];y++)
             {
@@ -29,14 +29,14 @@ class Program
         }
         return newDict;
     }
-    static List<int> checkData(List<string> data)
+    static List<long> checkData(List<string> data)
     {
-        Dictionary<int,int>dictionary = new Dictionary<int, int>();
+        Dictionary<long,long>dictionary = new Dictionary<long,long>();
         string[] stringSeeds = data[0].Split(" ");
-        List<int>seeds = new List<int>();
+        List<long>seeds = new List<long>();
         for(int x = 1; x<stringSeeds.Length; x++)
         {
-            seeds.Add(Convert.ToInt32(stringSeeds[x]));
+            seeds.Add(Convert.ToInt64(stringSeeds[x]));
         }
         int start = 2;
         for (int x=0; x<7;x++)
@@ -63,7 +63,8 @@ class Program
     static void Main()
     {
         List<string>inputtedData = getData();
-        List<int> finalValues= checkData(inputtedData);
-        int check = 0;
+        List<long> finalValues= checkData(inputtedData);
+        Console.WriteLine(finalValues.Min());
+        Console.ReadLine();
     }
 }
