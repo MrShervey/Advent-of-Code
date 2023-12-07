@@ -18,11 +18,40 @@ class Program
         textFile.Close();
         return inputData;
     } 
+    static char maxLetter(string letters)
+    {
+        if(letters[0] == 'J' && letters[1] == 'J' && letters[2] == 'J' && letters[3] == 'J' && letters[4] == 'J')
+        {
+            letters = "PPPPP";
+        }
+        int[] charCount = new int[256];
+        int max = 0;
+        char result = char.MinValue;
+        Array.Clear(charCount,0,charCount.Length-1);
+        foreach(char c in letters)
+        {
+            if(c != 'J' && ++charCount[c]>max)
+            {
+                max = charCount[c];
+                result = c;
+            }
+        }
+        return result;
+    }
     static string getHandType(string card)
     {
         string hand;
         Dictionary<string,int>cardTypes = new Dictionary<string, int>()
         {{"A",14},{"2",2},{"3",3},{"4",4},{"5",5},{"6",6},{"7",7},{"8",8},{"9",9},{"T",10},{"J",11},{"Q",12},{"K",13},};
+        
+        string[] splitcard = card.Split(" ");
+        char maxLet = maxLetter(splitcard[0]);
+        card = card.Replace("J",maxLet.ToString());
+        splitcard = card.Split(" ");
+        if(splitcard[0] == "PPPPP")
+        {
+            card = "JJJJJ" + splitcard[1];
+        }
         int[]newcardTypes = new int[5];
         for (int x = 0; x<5;x++)
         {
@@ -108,16 +137,16 @@ class Program
                     newValue = 'e';
                     break;
                 case 'J':
-                    newValue = 'd';
+                    newValue = 'a';
                     break;
                 case 'Q':
-                    newValue = 'c';
+                    newValue = 'd';
                     break;
                 case 'K':
-                    newValue = 'b';
+                    newValue = 'c';
                     break;
                 case 'A':
-                    newValue = 'a';
+                    newValue = 'b';
                     break;
             }
             StringBuilder sb = new StringBuilder(value);
@@ -160,7 +189,7 @@ class Program
                 case "Three of a kind":
                     threeofakind.Add(inputData[x]);
                     break;
-                case "Full house":
+                case "Full House":
                     fullhouse.Add(inputData[x]);
                     break;
                 case "Two pair":
@@ -176,24 +205,24 @@ class Program
         } 
         List<string>finalList = new List<string>();
         List<string>sortedList = new List<string>();
+        if (fiveofakind.Count > 0)
+        {
+            sortedList = convertAndSort(fiveofakind);
+            finalList.AddRange(sortedList);
+        }
         if (fourofakind.Count > 0)
         {
             sortedList = convertAndSort(fourofakind);
             finalList.AddRange(sortedList);
         }
-        if (fiveofakind.Count > 0)
+        if (fullhouse.Count > 0)
         {
-            sortedList = convertAndSort(fourofakind);
+            sortedList = convertAndSort(fullhouse);
             finalList.AddRange(sortedList);
         }
         if (threeofakind.Count > 0)
         {
             sortedList = convertAndSort(threeofakind);
-            finalList.AddRange(sortedList);
-        }
-        if (fullhouse.Count > 0)
-        {
-            sortedList = convertAndSort(fullhouse);
             finalList.AddRange(sortedList);
         }
         if (twopairs.Count > 0)
@@ -211,6 +240,7 @@ class Program
             sortedList = convertAndSort(oneofakind);
             finalList.AddRange(sortedList);
         }
+
         int total = 0, len = finalList.Count;
 
         for (int x = 0; x< finalList.Count;x++)
