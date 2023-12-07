@@ -89,10 +89,47 @@ class Program
 
         return found;
     }
+    static void partTwo(string[]data)
+    {
+        for (int row = 0; row < data.Length; row++)
+        {
+            for (int column = 0; column < data[0].Length; column++)
+            {
+                try
+                {
+
+                }
+                catch (System.IndexOutOfRangeException)
+                {
+                    
+                }
+            }
+        }
+    }
+    static void findNumber(string[] data, int x, int y)
+    {
+        string number = data[x][y].ToString();
+        
+    }
     static void Main()
     {
-        //string test = "952.........................................................793......583..........623............11........730............50.116.........446";
-        //Console.WriteLine(test.Length);
         Console.WriteLine(taskOne(getData()));
+
+        //try catch index out of range
+        // int[] nums = {3,4,5};
+        // string p="b";
+        // for (int x = 0; x<5;x++)
+        // {
+        //     try
+        //     {
+        //         p = nums[x].ToString();
+        //         Console.WriteLine(p);
+        //     }
+        //     catch (System.IndexOutOfRangeException)
+        //     {
+        //         p = ".";
+        //     }
+        // }
+        // Console.WriteLine(p);
     }
 }

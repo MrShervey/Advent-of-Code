@@ -1,0 +1,14 @@
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\bin\Debug\net7.0\Day 7.exe
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\bin\Debug\net7.0\Day 7.deps.json
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\bin\Debug\net7.0\Day 7.runtimeconfig.json
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\bin\Debug\net7.0\Day 7.dll
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\bin\Debug\net7.0\Day 7.pdb
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.AssemblyInfoInputs.cache
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.AssemblyInfo.cs
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.csproj.CoreCompileInputs.cache
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.dll
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\refint\Day 7.dll
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.pdb
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\Day 7.genruntimeconfig.cache
+C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2023\7\Day 7\obj\Debug\net7.0\ref\Day 7.dll
