@@ -9,7 +9,7 @@ class Program
     static List<string> getData()
     {
         List<string>inputData = new List<string>();
-        TextReader textFile = new StreamReader("inputData.txt");
+        TextReader textFile = new StreamReader("testData2.txt");
         string data;
         while ((data = textFile.ReadLine()) != null)
         {
@@ -38,8 +38,9 @@ class Program
         }
         return result;
     }
-    static string getHandType(string card)
+    static string[] getHandType(string card)
     {
+        string[] returnValues = new string[2];
         string hand;
         Dictionary<string,int>cardTypes = new Dictionary<string, int>()
         {{"A",14},{"2",2},{"3",3},{"4",4},{"5",5},{"6",6},{"7",7},{"8",8},{"9",9},{"T",10},{"J",11},{"Q",12},{"K",13},};
@@ -50,7 +51,7 @@ class Program
         splitcard = card.Split(" ");
         if(splitcard[0] == "PPPPP")
         {
-            card = "JJJJJ" + splitcard[1];
+            card = "JJJJJ" + " " +splitcard[1];
         }
         int[]newcardTypes = new int[5];
         for (int x = 0; x<5;x++)
@@ -100,7 +101,9 @@ class Program
         {
             hand = "One of a kind";
         }
-        return hand;
+        returnValues[0] = hand;
+        returnValues[1] = card;
+        return returnValues;
     }
     static string convert(string value)
     {
@@ -177,8 +180,10 @@ class Program
         List<string>oneofakind = new List<string>();
         for (int x = 0; x<inputData.Count;x++)
         {
-            string returnedhand = getHandType(inputData[x]);
-            switch (returnedhand)
+            string[] returnedhand = getHandType(inputData[x]);
+            string[] splitData = inputData[x].Split(" ");
+            inputData[x] = returnedhand[1];
+            switch (returnedhand[0])
             {
                 case "Four of a kind":
                     fourofakind.Add(inputData[x]);
