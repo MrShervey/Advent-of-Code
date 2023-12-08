@@ -33,8 +33,7 @@ class Program
         // int p2Distance = 940200;
         // Console.WriteLine(findTimes(p2Time,p2Distance));
         //Part Two full data
-        long p2Time  = 45988373;
-        long p2Distance = 295173412781210;
+        long p2Time  = 45988373, p2Distance = 295173412781210;
         Console.WriteLine("Part Two: {0}",findTimes(p2Time,p2Distance));
     }
 }
