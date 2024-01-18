@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vil50ni8p7FPM0PN9GrqgbUemio16lIsUxSTeiczm0kGZK9dfiSsiuvo4d84AnqEoRpeM5aYZ9RODU1aFL1BNg==",
+  "dgSpecHash": "1+JP0m4SuoxJlC1mi/VUmaiAyR33XP1auqQtiuJbYpiGuO8qe13YKPIaC8T7Upm9al8XUNjMGjiyQvdsCYk63g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2023\\7\\Day 7\\Day 7.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2023\\7\\Day 7\\Day 7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\j.shervey\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\j.shervey\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\j.shervey\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\j.shervey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
