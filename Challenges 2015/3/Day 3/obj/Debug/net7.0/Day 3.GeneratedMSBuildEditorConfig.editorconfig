@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Day_3
-build_property.ProjectDir = C:\Users\sherveyj\OneDrive - Skipton Girls High School\Documents\Advent of Code\Challenges 2015\3\Day 3\
+build_property.ProjectDir = C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\3\Day 3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

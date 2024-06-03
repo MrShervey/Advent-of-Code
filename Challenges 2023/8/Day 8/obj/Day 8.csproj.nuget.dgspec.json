@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\3\\Day 3\\Day 3.csproj": {}
+    "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2023\\8\\Day 8\\Day 8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\3\\Day 3\\Day 3.csproj": {
+    "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2023\\8\\Day 8\\Day 8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\3\\Day 3\\Day 3.csproj",
-        "projectName": "Day 3",
-        "projectPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\3\\Day 3\\Day 3.csproj",
+        "projectUniqueName": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2023\\8\\Day 8\\Day 8.csproj",
+        "projectName": "Day 8",
+        "projectPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2023\\8\\Day 8\\Day 8.csproj",
         "packagesPath": "C:\\Users\\j.shervey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\3\\Day 3\\obj\\",
+        "outputPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2023\\8\\Day 8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\j.shervey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,19 +53,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.14, 7.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.14, 7.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.14, 7.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.14, 7.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -78,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

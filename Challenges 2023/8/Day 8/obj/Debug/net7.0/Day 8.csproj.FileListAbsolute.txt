@@ -1,0 +1,15 @@
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\bin\Debug\net7.0\Day 8.exe
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\bin\Debug\net7.0\Day 8.deps.json
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\bin\Debug\net7.0\Day 8.runtimeconfig.json
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\bin\Debug\net7.0\Day 8.dll
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\bin\Debug\net7.0\Day 8.pdb
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.AssemblyInfoInputs.cache
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.AssemblyInfo.cs
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.csproj.CoreCompileInputs.cache
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.sourcelink.json
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.dll
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\refint\Day 8.dll
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.pdb
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\Day 8.genruntimeconfig.cache
+c:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2023\8\Day 8\obj\Debug\net7.0\ref\Day 8.dll
