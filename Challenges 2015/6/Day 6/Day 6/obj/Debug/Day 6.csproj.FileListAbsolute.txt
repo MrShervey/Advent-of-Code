@@ -1,0 +1,7 @@
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\bin\Debug\Day 6.exe.config
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\bin\Debug\Day 6.exe
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\bin\Debug\Day 6.pdb
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\obj\Debug\Day 6.csproj.AssemblyReference.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\obj\Debug\Day 6.csproj.CoreCompileInputs.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\obj\Debug\Day 6.exe
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\6\Day 6\Day 6\obj\Debug\Day 6.pdb
