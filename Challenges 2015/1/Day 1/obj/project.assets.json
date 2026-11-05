@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net7.0": {}
   },
@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sherveyj\\.nuget\\packages\\": {}
+    "C:\\Users\\j.shervey\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2015\\1\\Day 1\\Day 1.csproj",
+      "projectUniqueName": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\1\\Day 1\\Day 1.csproj",
       "projectName": "Day 1",
-      "projectPath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2015\\1\\Day 1\\Day 1.csproj",
-      "packagesPath": "C:\\Users\\sherveyj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sherveyj\\OneDrive - Skipton Girls High School\\Documents\\Advent of Code\\Challenges 2015\\1\\Day 1\\obj\\",
+      "projectPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\1\\Day 1\\Day 1.csproj",
+      "packagesPath": "C:\\Users\\j.shervey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2015\\1\\Day 1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sherveyj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\j.shervey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,6 +37,7 @@
       },
       "frameworks": {
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "projectReferences": {}
         }
@@ -40,10 +46,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net7.0": {
+        "framework": "net7.0",
         "targetAlias": "net7.0",
         "imports": [
           "net461",
@@ -61,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

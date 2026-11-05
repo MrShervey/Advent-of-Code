@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2025\\Day 2\\Day 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8EEFC3-F3BC-1C3B-3887-71F194091749}|Day 2\\Day 2.csproj|c:\\users\\j.shervey\\onedrive - clitheroe royal grammar school\\advent of code\\challenges 2025\\day 2\\day 2\\day 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8EEFC3-F3BC-1C3B-3887-71F194091749}|Day 2\\Day 2.csproj|solutionrelative:day 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2025\\Day 2\\Day 2\\Day 2\\Program.cs",
+              "RelativeDocumentMoniker": "Day 2\\Program.cs",
+              "ToolTip": "C:\\Users\\j.shervey\\OneDrive - Clitheroe Royal Grammar School\\Advent of Code\\Challenges 2025\\Day 2\\Day 2\\Day 2\\Program.cs",
+              "RelativeToolTip": "Day 2\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:44:51.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

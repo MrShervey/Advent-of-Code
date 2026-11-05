@@ -1,0 +1,15 @@
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\bin\Debug\net8.0\Day 14.exe
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\bin\Debug\net8.0\Day 14.deps.json
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\bin\Debug\net8.0\Day 14.runtimeconfig.json
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\bin\Debug\net8.0\Day 14.dll
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\bin\Debug\net8.0\Day 14.pdb
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.AssemblyInfoInputs.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.AssemblyInfo.cs
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.csproj.CoreCompileInputs.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.sourcelink.json
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.dll
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\refint\Day 14.dll
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.pdb
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\Day 14.genruntimeconfig.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2015\14\Day 14\Day 14\obj\Debug\net8.0\ref\Day 14.dll

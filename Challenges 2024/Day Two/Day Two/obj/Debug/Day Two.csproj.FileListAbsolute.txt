@@ -1,0 +1,7 @@
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\bin\Debug\Day Two.exe.config
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\bin\Debug\Day Two.exe
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\bin\Debug\Day Two.pdb
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\obj\Debug\Day Two.csproj.AssemblyReference.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\obj\Debug\Day Two.csproj.CoreCompileInputs.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\obj\Debug\Day Two.exe
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Challenges 2024\Day Two\Day Two\obj\Debug\Day Two.pdb

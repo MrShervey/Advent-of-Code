@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Create 2D char array with border/1.0.0": {
+        "runtime": {
+          "Create 2D char array with border.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Create 2D char array with border/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

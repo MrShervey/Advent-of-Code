@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "../AppData/Roaming/Code/User/workspaceStorage/5b9dca56d818d04f9c2fb041755938fc/ms-dotnettools.csdevkit/Advent of Code.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "../AppData/Roaming/Code/User/workspaceStorage/5b9dca56d818d04f9c2fb041755938fc/ms-dotnettools.csdevkit/Advent of Code.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/Challenges 2020/3/Day 3/Day 3.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

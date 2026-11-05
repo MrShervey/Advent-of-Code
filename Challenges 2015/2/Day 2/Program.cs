@@ -29,6 +29,7 @@ class Program
         }
         int max = sides.Min();
         total += max;
+        Console.WriteLine(total);
         return total;
     }
     static int taskTwo(string data)
@@ -53,6 +54,7 @@ class Program
         for (int x = 0; x < inputData.Count; x++)
         {
            task1Total += taskOne(inputData[x]);
+            //Console.WriteLine(task1Total);
            task2Total += taskTwo(inputData[x]);
         }
         Console.WriteLine("Task 1 answer: {0}", task1Total);

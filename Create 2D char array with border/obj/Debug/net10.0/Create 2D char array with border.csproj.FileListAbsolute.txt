@@ -1,0 +1,15 @@
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\bin\Debug\net10.0\Create 2D char array with border.exe
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\bin\Debug\net10.0\Create 2D char array with border.deps.json
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\bin\Debug\net10.0\Create 2D char array with border.runtimeconfig.json
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\bin\Debug\net10.0\Create 2D char array with border.dll
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\bin\Debug\net10.0\Create 2D char array with border.pdb
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.AssemblyInfoInputs.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.AssemblyInfo.cs
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.csproj.CoreCompileInputs.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.sourcelink.json
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.dll
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\refint\Create 2D char array with border.dll
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.pdb
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\Create 2D char array with border.genruntimeconfig.cache
+C:\Users\j.shervey\OneDrive - Clitheroe Royal Grammar School\Advent of Code\Create 2D char array with border\obj\Debug\net10.0\ref\Create 2D char array with border.dll
